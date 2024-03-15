@@ -5,10 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// function R() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path='/notice' element={<Notice/>}/>
+//         <Route path='/' element={<App/>} />
+//         <Route path='/board/Board.js' element={<Board/>} />
+//       </Routes>
+//     </BrowserRouter>
+//   )
+// }
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  
+    <App/>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
